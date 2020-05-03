@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+<title>DRAWING BOARD</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<!-- Google analytics, ignore this -->
+<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18035087-2']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+</script>
+
+
+<style>
+.demo_page {
+	background: #a9adb0 url(../page_bg_center.jpg) no-repeat center top;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.demo_content {
+	margin: 0 auto;
+	text-align: center;
+	width: 468px;
+}
+
+.info {
+	margin: 15px 0;	
+}
+.main{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin: 0 auto 0 590px;
+    
+}
+
+</style>
+</head>
+    <div class="main">
+        <h><b>!!!DRAWING BOARD !!!</b></h>
+    </div>
+<body class="demo_page">
+<div class="demo_content">
+  <!-- Please remove and ignore Google Ads -->
+  
+  <!-- END ads -->
+  
+  <div class="info">
+  		<style>
+		body {
+			margin: 0; 
+		}
+		 
+		#board {
+			margin: 0 auto;
+			width: 500px;  
+		}
+		 
+		#myCanvas {
+			border: 3px dotted #000;   
+		}
+        </style>
+        
+        <a style="font-size: x-large;margin-left: 650px;margin-top:-25px;" class="w3-button w3-black " href="main_pg.html">HOME</a>
+
+  		<div id="board">
+        <canvas id="myCanvas" width="500px" height="500px">
+            Sorry, your browser doesn't support canvas technology.
+        </canvas>
+        <p>Color picker: <select id="selectColor">
+                  <option id="colBlack" value="black" selected="selected">Black</option>
+                  <option id="colRed" value="red">Red</option>
+                  <option id="colBlue" value="blue">Blue</option>
+                  <option id="colGreen" value="green">Green</option>
+                  <option id="colOrange" value="orange">Orange</option>
+                  <option id="colYellow" value="yellow">Yellow</option>
+                  <option id="colWhite" value="white">white</option>
+        </select>
+        </p>
+        <p><b>REFRESH THE PAGE TO CLEAR THE DRAWINGS!!</b></p>
+        </div><!-- END board -->
+        
+        <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+		<script type="text/javascript">
+            window.onload = function() {
+                var myCanvas = document.getElementById("myCanvas");
+                var curColor = $('#selectColor option:selected').val();
+                if(myCanvas){
+                        var isDown  = false;
+                        var ctx = myCanvas.getContext("2d");
+                        var canvasX, canvasY;
+                        ctx.lineWidth = 5;
+                         
+                        $(myCanvas)
+                        .mousedown(function(e){
+                                isDown = true;
+                                ctx.beginPath();
+                                canvasX = e.pageX - myCanvas.offsetLeft;
+                                canvasY = e.pageY - myCanvas.offsetTop;
+                                ctx.moveTo(canvasX, canvasY);
+                        })
+                        .mousemove(function(e){
+                                if(isDown != false) {
+                                    canvasX = e.pageX - myCanvas.offsetLeft;
+                                    canvasY = e.pageY - myCanvas.offsetTop;
+                                    ctx.lineTo(canvasX, canvasY);
+                                    ctx.strokeStyle = curColor;
+                                    ctx.stroke();
+                                }
+                        })
+                        .mouseup(function(e){
+                                isDown = false;
+                                ctx.closePath();
+                        });
+                }
+                 
+                $('#selectColor').change(function () {
+                        curColor = $('#selectColor option:selected').val();
+                });
+                 
+            };
+        </script>
+        
+</body>
+</html>
