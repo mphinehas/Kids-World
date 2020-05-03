@@ -1,0 +1,787 @@
+﻿<process name="excel_gmail" version="1.0" bpversion="5.0.11.0" narrative="excel sheet signup gmail&#xD;&#xA;" type="object" runmode="Exclusive" preferredid="80ec0637-ccd7-4cb8-8a86-d5b2bc5ff38e">
+  <appdef>
+    <element name="excel_gmail">
+      <id>b267e0b2-b633-45c9-b854-2ee85678d75b</id>
+      <group name="launch">
+        <id>0051e0b7-bd19-4955-a89e-c09da0d1d123</id>
+      </group>
+      <element name="email">
+        <id>cf338377-e273-43d3-9066-42a1f929d8a9</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="364" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="52" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/FORM(1)/SPAN(1)/SECTION(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="whsOnd zHQkBf" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="identifierId" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="email" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="identifier" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://accounts.google.com/ServiceLogin/identifier?service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:586,295,347,950" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="next">
+        <id>b6f59541-fcae-405c-ba98-3d1bff6284ba</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="88" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="36" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="DIV" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="ZFr60d CeoRYc" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="15" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://accounts.google.com/ServiceLogin/identifier?service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:864,497,533,952" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="password">
+        <id>7d5e26f7-37ea-4821-b203-96ec44bbf4a6</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="314" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="52" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/FORM(1)/SPAN(1)/SECTION(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="whsOnd zHQkBf" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="password" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="password" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="27" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://accounts.google.com/signin/v2/sl/pwd?service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;cid=1&amp;navigationDirection=forward" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:586,311,363,900" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="next">
+        <id>ebd2417e-65db-4c8a-9e9e-e720a677133c</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="88" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="36" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="DIV" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="ZFr60d CeoRYc" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="15" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://accounts.google.com/signin/v2/sl/pwd?service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;cid=1&amp;navigationDirection=forward" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:864,410,446,952" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://accounts.google.com/signin/v2/identifier?service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="efc53f53-4cc0-4db4-8cd6-bf9f7d81b49f" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="d1172460-ef47-4569-b8fb-cc619e9f19cb" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>182</camerax>
+      <cameray>-13</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="21fb248c-c5ec-4749-b240-f7c0861281a9" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>aabe319f-35bb-4ca8-9a74-12fb6c177f62</onsuccess>
+  </stage>
+  <stage stageid="aabe319f-35bb-4ca8-9a74-12fb6c177f62" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="96931814-4aaf-43a0-9fa4-4e9baf99a022" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="9315b781-c9f4-40cc-9e0a-87f509e881c7" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>efc53f53-4cc0-4db4-8cd6-bf9f7d81b49f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="9193b0be-c65e-4329-9764-a9e7b7e99c14" name="Start" type="Start">
+    <subsheetid>efc53f53-4cc0-4db4-8cd6-bf9f7d81b49f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>7c077bc1-079b-4287-87b1-d76ee2b64ed9</onsuccess>
+  </stage>
+  <stage stageid="7c077bc1-079b-4287-87b1-d76ee2b64ed9" name="End" type="End">
+    <subsheetid>efc53f53-4cc0-4db4-8cd6-bf9f7d81b49f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="68f84235-1206-4a37-ac8d-c2a570e8ce3d" name="Action 1" type="SubSheetInfo">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-345</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="fb58e7d0-fd72-4084-9560-504191b8b910" name="Start" type="Start">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-210</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>e2455e8e-f32e-494b-a4d8-9eeadc789af2</onsuccess>
+  </stage>
+  <stage stageid="bea65040-a2ab-44e7-85e3-f2c6bc384961" name="End" type="End">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="10d66739-970f-46f0-b759-4c175f7fec28" name="Note1" type="Note">
+    <subsheetid>efc53f53-4cc0-4db4-8cd6-bf9f7d81b49f</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3ee13585-b345-4cfc-9d73-0271d32fa748" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e2455e8e-f32e-494b-a4d8-9eeadc789af2" name="create" type="Action">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-210</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="flag" name="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>1539d20a-878b-4486-8909-a8a7adb18f75</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="824a9413-bce1-4172-b55b-01d721ffc811" name="handle" type="Data">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>345</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1539d20a-878b-4486-8909-a8a7adb18f75" name="open workbook" type="Action">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\ebe\Desktop\gmail.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>4216be67-2bac-4996-999a-d91bd06db832</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="d485c0dc-fe67-4be3-99f4-b408ec94f9ef" name="Workbook Name" type="Data">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>405</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4216be67-2bac-4996-999a-d91bd06db832" name="get collection" type="Action">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="Data" />
+    </outputs>
+    <onsuccess>7271384e-cc97-472e-9f14-55f671a88e58</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="b5bd1270-5369-4340-9758-aac898a14da0" name="Data" type="Collection">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>465</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="email" type="text" />
+      <field name="password" type="password" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="email" type="text" value="" />
+        <field name="password" type="password" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="7271384e-cc97-472e-9f14-55f671a88e58" name="launch" type="Navigate">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>0fa3629b-992d-4ee0-996a-0a7ad1a1e1d0</onsuccess>
+    <step>
+      <element id="b267e0b2-b633-45c9-b854-2ee85678d75b" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="749523ef-6ecb-4c28-90e2-1ce34d742ed4" name="email" type="Navigate">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>8d52566d-708a-4053-aa20-835448ec3051</onsuccess>
+    <step>
+      <element id="cf338377-e273-43d3-9066-42a1f929d8a9" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="0aec070a-0c11-4fc2-b2f6-6a30038e69f6" name="next" type="Navigate">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>bb575be4-5cea-4245-834d-ac329ae0b046</onsuccess>
+    <step>
+      <element id="b6f59541-fcae-405c-ba98-3d1bff6284ba" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="912e67b6-e180-45a4-9eac-8162dd67ad06" name="password" type="Navigate">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>500627f3-0c64-45fb-840b-01fceb2c3c7c</onsuccess>
+    <step>
+      <element id="7d5e26f7-37ea-4821-b203-96ec44bbf4a6" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="96dcab35-ecb1-4075-bede-3a8d61d08598" name="next" type="Navigate">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>bea65040-a2ab-44e7-85e3-f2c6bc384961</onsuccess>
+    <step>
+      <element id="ebd2417e-65db-4c8a-9e9e-e720a677133c" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="d6acc6f9-22b7-4ebc-bb70-d177d0585424" name="Time Out1" type="WaitEnd">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>255</displayx>
+    <displayy>15</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>749523ef-6ecb-4c28-90e2-1ce34d742ed4</onsuccess>
+    <groupid>eba824fc-3fbe-4aa2-9aa9-6292880ac0a2</groupid>
+  </stage>
+  <stage stageid="0fa3629b-992d-4ee0-996a-0a7ad1a1e1d0" name="Wait1" type="WaitStart">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>255</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>eba824fc-3fbe-4aa2-9aa9-6292880ac0a2</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="8d52566d-708a-4053-aa20-835448ec3051" name="email" type="Write">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>0aec070a-0c11-4fc2-b2f6-6a30038e69f6</onsuccess>
+    <step expr="[Data.email]">
+      <element id="cf338377-e273-43d3-9066-42a1f929d8a9" />
+    </step>
+  </stage>
+  <stage stageid="e9f144d3-9f80-4a01-8ba2-9fae0e075d97" name="Time Out2" type="WaitEnd">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>135</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>912e67b6-e180-45a4-9eac-8162dd67ad06</onsuccess>
+    <groupid>c38f58a2-2b66-4902-bcb1-2927a84a7e76</groupid>
+  </stage>
+  <stage stageid="bb575be4-5cea-4245-834d-ac329ae0b046" name="Wait2" type="WaitStart">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>75</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>c38f58a2-2b66-4902-bcb1-2927a84a7e76</groupid>
+    <choices />
+    <timeout>3</timeout>
+  </stage>
+  <stage stageid="500627f3-0c64-45fb-840b-01fceb2c3c7c" name="pass" type="Write">
+    <subsheetid>d1172460-ef47-4569-b8fb-cc619e9f19cb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>96dcab35-ecb1-4075-bede-3a8d61d08598</onsuccess>
+    <step expr="[Data.password]">
+      <element id="7d5e26f7-37ea-4821-b203-96ec44bbf4a6" />
+    </step>
+  </stage>
+</process>

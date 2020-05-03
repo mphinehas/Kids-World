@@ -1,0 +1,230 @@
+﻿<process name="Student marks" version="1.0" bpversion="5.0.11.0" narrative="Using loop concept " preferredid="02140ba9-f277-4102-82b7-906d26de8f3e">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="e5141556-9f73-498d-bdac-4ed272ba9e3d" name="Start" type="Start">
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-210</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>7257766a-7696-43ac-90fd-b94cafe40c5d</onsuccess>
+  </stage>
+  <stage stageid="b538b13d-6d80-489e-bebe-79d01601a7e6" name="End" type="End">
+    <narrative>
+    </narrative>
+    <displayx>285</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e31db4bc-eb3d-489a-81d3-d5ea15d94039" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-450</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="0abb910e-4eb0-46e0-95ea-fa744332d727" name="Choice1" type="ChoiceStart">
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>8cb54f04-c97b-4166-8266-eba583b91bb4</groupid>
+    <choices>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=90 AND [STUDENT.PRECENTAGE]&lt;=100">
+        <name>Grade A</name>
+        <distance>40.7142868</distance>
+        <ontrue>c0833d5a-ae5a-4e50-8217-e2aad89c8883</ontrue>
+      </choice>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=80 AND [STUDENT.PRECENTAGE]&lt;=89">
+        <name>Grade B</name>
+        <distance>81.42857</distance>
+        <ontrue>f8f5f8c7-2759-42db-ac0a-b277badc410d</ontrue>
+      </choice>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=70 AND [STUDENT.PRECENTAGE]&lt;=79">
+        <name>Grade C</name>
+        <distance>122.14286</distance>
+        <ontrue>29c0cfcb-6b53-41bb-bc4c-097a7414935d</ontrue>
+      </choice>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=60 AND [STUDENT.PRECENTAGE]&lt;=69">
+        <name>Grade D</name>
+        <distance>162.857147</distance>
+        <ontrue>0b1bb77b-aa32-4aac-ab08-26d959e0ef9f</ontrue>
+      </choice>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=50 AND [STUDENT.PRECENTAGE]&lt;=59">
+        <name>Grade E</name>
+        <distance>203.571442</distance>
+        <ontrue>ecad107f-ed1b-4de2-9024-85b862f08a03</ontrue>
+      </choice>
+      <choice expression="[STUDENT.PRECENTAGE]&gt;=0 AND [STUDENT.PRECENTAGE]&lt;=49">
+        <name>Grade F</name>
+        <distance>244.285736</distance>
+        <ontrue>41fbf0d6-c1f2-4875-91f7-b13a17f8177c</ontrue>
+      </choice>
+    </choices>
+  </stage>
+  <stage stageid="169c19d4-2eaa-4ce9-8bcd-b00d9329a15f" name="Otherwise1" type="ChoiceEnd">
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>180</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>91b54925-6d8c-4098-9c20-7cfc50dda98b</onsuccess>
+    <groupid>8cb54f04-c97b-4166-8266-eba583b91bb4</groupid>
+  </stage>
+  <stage stageid="c0833d5a-ae5a-4e50-8217-e2aad89c8883" name="Grade A" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE A&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="29c0cfcb-6b53-41bb-bc4c-097a7414935d" name="GRADE C" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE C&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="f8f5f8c7-2759-42db-ac0a-b277badc410d" name="GRADE B" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE B&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="ecad107f-ed1b-4de2-9024-85b862f08a03" name="GRADE E" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE E&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="0b1bb77b-aa32-4aac-ab08-26d959e0ef9f" name="GRADE D" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE D&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="41fbf0d6-c1f2-4875-91f7-b13a17f8177c" name="GRADE F" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;GRADE F&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="91b54925-6d8c-4098-9c20-7cfc50dda98b" name="INVALID" type="Calculation">
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>210</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>63920268-6953-4890-b464-986a1342f56e</onsuccess>
+    <calculation expression="&quot;INVALID&quot;" stage="STUDENT.GRADE" />
+  </stage>
+  <stage stageid="41feb6e5-bbc7-41f1-b72a-93f810a100d3" name="STUDENT" type="Collection">
+    <narrative>
+    </narrative>
+    <displayx>360</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="NAME" type="text" />
+      <field name="PRECENTAGE" type="number" />
+      <field name="GRADE" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="NAME" type="text" value="JACK" />
+        <field name="PRECENTAGE" type="number" value="78" />
+        <field name="GRADE" type="text" value="" />
+      </row>
+      <row>
+        <field name="NAME" type="text" value="REC" />
+        <field name="PRECENTAGE" type="number" value="45" />
+        <field name="GRADE" type="text" value="" />
+      </row>
+      <row>
+        <field name="NAME" type="text" value="JOHN" />
+        <field name="PRECENTAGE" type="number" value="56" />
+        <field name="GRADE" type="text" value="" />
+      </row>
+      <row>
+        <field name="NAME" type="text" value="GOE" />
+        <field name="PRECENTAGE" type="number" value="89" />
+        <field name="GRADE" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="7257766a-7696-43ac-90fd-b94cafe40c5d" name="Loop Start1" type="LoopStart">
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>0abb910e-4eb0-46e0-95ea-fa744332d727</onsuccess>
+    <groupid>f6abc16d-56f5-4e66-b690-4378a07c874c</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>STUDENT</loopdata>
+  </stage>
+  <stage stageid="63920268-6953-4890-b464-986a1342f56e" name="Loop End1" type="LoopEnd">
+    <narrative>
+    </narrative>
+    <displayx>210</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>b538b13d-6d80-489e-bebe-79d01601a7e6</onsuccess>
+    <groupid>f6abc16d-56f5-4e66-b690-4378a07c874c</groupid>
+  </stage>
+</process>

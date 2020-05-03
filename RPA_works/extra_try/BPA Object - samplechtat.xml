@@ -1,0 +1,1621 @@
+﻿<process name="samplechtat" version="1.0" bpversion="5.0.11.0" narrative="" type="object" runmode="Exclusive" preferredid="54ebc5ae-f992-40a3-b836-5c399dfc968e">
+  <appdef>
+    <element name="samplechtat">
+      <id>6882c7e2-5ad9-4d1c-8c24-f3c539c62df5</id>
+      <group name="launch">
+        <id>9326dc6c-ad6e-45d1-95c6-9af52c05ef2e</id>
+      </group>
+      <element name="chat_bot">
+        <id>4d69eb87-078e-418c-9473-568fc04a4f03</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="73" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(1)/DIV(1)/DIV(3)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/UL(1)/LI(2)/A(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="A" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="Person 2" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/?twitter_message#tab-person2" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="15" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="Person 2" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/fake-whatsapp-chat-generator" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:286,267,307,360" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="msg">
+        <id>827533f7-5cbf-4a29-98ff-44c613abbed2</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="179" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="310" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="100" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(1)/DIV(1)/DIV(3)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/DIV(2)/TEXTAREA(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="TEXTAREA" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="form-control" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="profile2_message" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="16" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/fake-whatsapp-chat-generator" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:223,421,521,533" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="send msg">
+        <id>6c50f216-26ef-4a67-a23e-b8225ecfcf02</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="439" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="137" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="38" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(1)/DIV(1)/DIV(3)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/BUTTON(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="BUTTON" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="btn btn-sm" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="15" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value=" Add message  " />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/fake-whatsapp-chat-generator" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:223,681,719,360" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="NAMES">
+        <id>148d5601-adcf-492b-be7b-abbc4ffbb15e</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="15" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="330" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(1)/DIV(1)/DIV(3)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="form-control" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="profile1_name" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="13" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/fake-whatsapp-chat-generator" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:213,228,268,543" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="p1_read">
+        <id>adec587e-dad5-466f-b0b1-582a37ccd04d</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="261" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="310" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="100" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(1)/DIV(1)/DIV(3)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(3)/TEXTAREA(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="TEXTAREA" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="form-control" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="profile1_message" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="16" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://fakedetail.com/fake-whatsapp-chat-generator" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:223,647,747,533" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files (x86)\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://fakedetail.com/fake-whatsapp-chat-generator</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="9444e1ba-480d-4a77-9c52-9a4e470eff67" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>248</camerax>
+      <cameray>135</cameray>
+      <zoom version="2">0.9375</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="d82ec99b-d339-45a5-94c4-29bd3d0c4d9b" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>67423f01-9aa2-4464-bc3c-6cb3dc09682f</onsuccess>
+  </stage>
+  <stage stageid="67423f01-9aa2-4464-bc3c-6cb3dc09682f" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="6059cb03-8ae2-4b2d-90b3-d02f62ce0e3e" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="bac1c35c-2ea4-473a-83e9-44c7faa035a0" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>9444e1ba-480d-4a77-9c52-9a4e470eff67</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="7f2aed5a-54ae-4548-83a4-ef3bf5fe4ed7" name="Start" type="Start">
+    <subsheetid>9444e1ba-480d-4a77-9c52-9a4e470eff67</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>2e9778c3-5eef-4d27-ad63-8e3ac5d7d583</onsuccess>
+  </stage>
+  <stage stageid="2e9778c3-5eef-4d27-ad63-8e3ac5d7d583" name="End" type="End">
+    <subsheetid>9444e1ba-480d-4a77-9c52-9a4e470eff67</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="a83c15e7-6426-454f-8102-cabdd91fbe8e" name="Action 1" type="SubSheetInfo">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-630</displayx>
+    <displayy>-270</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="4e80c7f7-60f3-4673-a01b-3c8b5fdaa7de" name="Start" type="Start">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-330</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>cceb7396-aecc-4ee2-ac36-df9a722e7d9b</onsuccess>
+  </stage>
+  <stage stageid="73cad1d6-52d8-4fbe-8207-b82c95f8ab62" name="End" type="End">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>735</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="6ea36612-67d2-4eda-8ffc-feec57ee54a3" name="Note1" type="Note">
+    <subsheetid>9444e1ba-480d-4a77-9c52-9a4e470eff67</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="a7960f65-b637-47cb-9ace-edf1fab50741" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="cceb7396-aecc-4ee2-ac36-df9a722e7d9b" name="launch" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-270</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>4207f4de-78b8-4641-882a-d96e392d53bb</onsuccess>
+    <step>
+      <element id="6882c7e2-5ad9-4d1c-8c24-f3c539c62df5" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="82b4964e-84e4-4491-b6e1-134effd32ddb" name="Time Out1" type="WaitEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-105</displayx>
+    <displayy>-210</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>6bce11d9-c646-43fd-949f-1a8cdd6ae544</onsuccess>
+    <groupid>4ea10fb9-413f-4891-8454-aa3419d6a257</groupid>
+  </stage>
+  <stage stageid="4207f4de-78b8-4641-882a-d96e392d53bb" name="Wait1" type="WaitStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-105</displayx>
+    <displayy>-270</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>4ea10fb9-413f-4891-8454-aa3419d6a257</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="6bce11d9-c646-43fd-949f-1a8cdd6ae544" name="NAME" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-210</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>57ee75bb-9261-438f-96ac-51af92f251fe</onsuccess>
+    <step>
+      <element id="148d5601-adcf-492b-be7b-abbc4ffbb15e" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="57ee75bb-9261-438f-96ac-51af92f251fe" name="Writer" type="Write">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-285</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>ab671321-a363-47e6-832f-4537f1e8fd3b</onsuccess>
+    <step expr="[Chat_name]">
+      <element id="148d5601-adcf-492b-be7b-abbc4ffbb15e" />
+    </step>
+  </stage>
+  <stage stageid="56cb78fe-e4a8-4708-85dc-7cc8798b51f2" name="Chat_name" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-375</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">WHO</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ab671321-a363-47e6-832f-4537f1e8fd3b" name="User_read" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c1d84c50-a0eb-4fec-b6f7-5e17b3584c75</onsuccess>
+    <step>
+      <element id="adec587e-dad5-466f-b0b1-582a37ccd04d" />
+      <action>
+        <id>HTMLFocus</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="d748a9ab-f2dd-4dda-a16c-8c25f34aaa54" name="Reader" type="Read">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>3ac57edb-f1cc-4e6e-985e-79043f5c8545</onsuccess>
+    <step stage="Value from p1_read">
+      <element id="adec587e-dad5-466f-b0b1-582a37ccd04d" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="c3b36503-5c35-45f5-8461-28f28fba32d8" name="Value from p1_read" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-300</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="339e0c58-51b0-4590-89f0-97536ccff059" name="Time Out2" type="WaitEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>d748a9ab-f2dd-4dda-a16c-8c25f34aaa54</onsuccess>
+    <groupid>985c923b-1811-4382-896c-67a1c9814b09</groupid>
+  </stage>
+  <stage stageid="c1d84c50-a0eb-4fec-b6f7-5e17b3584c75" name="Wait2" type="WaitStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-120</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>985c923b-1811-4382-896c-67a1c9814b09</groupid>
+    <choices />
+    <timeout>10</timeout>
+  </stage>
+  <stage stageid="3ac57edb-f1cc-4e6e-985e-79043f5c8545" name="Choice1" type="ChoiceStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>c063ff52-91fc-4d6d-a966-2446968623b1</groupid>
+    <choices>
+      <choice expression="[Value from p1_read]=[hi_]">
+        <name>msg1</name>
+        <distance>46.5</distance>
+        <ontrue>7ce419d2-ee21-4e18-8445-5922c67af910</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[more]">
+        <name>msg2</name>
+        <distance>93</distance>
+        <ontrue>95f7f735-ff46-439d-80d5-9b613d709463</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[Data1]">
+        <name>msg3</name>
+        <distance>139.5</distance>
+        <ontrue>2439a10f-dfe8-4d84-a3c3-1d78fc38d030</ontrue>
+      </choice>
+      <choice expression="[Data2]=[Value from p1_read]">
+        <name>msg4</name>
+        <distance>186</distance>
+        <ontrue>a22c5574-3394-4a66-b39f-8a50978fc051</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[Data3]">
+        <name>msg5</name>
+        <distance>232.5</distance>
+        <ontrue>5c946099-d395-42ff-8aab-ae0ef52f732b</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[Data4]">
+        <name>msg6</name>
+        <distance>279</distance>
+        <ontrue>06203bd4-3ed9-4357-9cde-bd591d19ed35</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[Data5]">
+        <name>msg7</name>
+        <distance>325.5</distance>
+        <ontrue>a8fe5a33-3baf-4f0d-8a72-f40061191a4d</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[Data6]">
+        <name>msg8</name>
+        <distance>372</distance>
+        <ontrue>2279bcbe-14bc-4776-859a-3d3ad02595e2</ontrue>
+      </choice>
+      <choice expression="[Value from p1_read]=[thank]">
+        <name>msg9</name>
+        <distance>418.5</distance>
+        <ontrue>b61a8415-d07e-4e92-817e-7c883c9e073d</ontrue>
+      </choice>
+    </choices>
+  </stage>
+  <stage stageid="9bf1693a-2f17-463f-bf95-d291bbb390f9" name="Otherwise1" type="ChoiceEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>435</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>8aa914a8-024b-4000-aa6e-bda0df587d47</onsuccess>
+    <groupid>c063ff52-91fc-4d6d-a966-2446968623b1</groupid>
+  </stage>
+  <stage stageid="fd1c6333-45d7-43cf-bbaa-2dad7eabf6ef" name="msg1" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-390</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">HI, How are you??,How can I help you??  :)  !!ARE YOU HYGIENIC!!</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b6a0fc91-f00f-4513-980a-ff9bf448af62" name="msg2" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-330</displayx>
+    <displayy>105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Welcome to the World Health Organization
+
+Get information and guidance from WHO regarding the current outbreak of coronavirus disease (COVID-19). 
+
+What would you like to know about coronavirus?
+
+Reply with a number (or emoji) at any time to get the latest information on the topic:
+
+a. Latest numbers 
+
+b. Protect yourself 
+
+c. Your questions answered
+
+d. Mythbusters  
+
+e. Travel advice 
+
+f. News &amp; Press</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a6a40dec-af22-413e-ae6e-1bd8e30cf5e8" name="msg3_u1" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-405</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Latest numbers 🔢
+
+Situation report - #61
+Coronavirus disease 2019 (COVID-19) 
+Data as reported by national authorities by 23:59 CET 20 March 2020
+
+total (new) cases in last 24 hours
+
+Globally
+266 073 confirmed (32 000)
+11 184 deaths (1344)
+
+Western Pacific Region
+94 037 confirmed (688)
+3426 deaths (21)
+
+European Region
+128 541 confirmed (23 950)
+6000 deaths (1 101)
+
+South-East Asia Region
+979 confirmed (61)
+38 deaths (7)
+
+Eastern Mediterranean Region
+22 355 confirmed (1596)
+1466 deaths (154)
+
+Region of the Americas
+18 877 confirmed (5606)
+235 deaths (57)
+
+African Region
+572 confirmed (99)
+12 deaths (4)
+
+WHO RISK ASSESSMENT
+Global Level Very High
+
+For country numbers, find the latest situation reports here: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
+
+📌 Reply 6 for News &amp; Press
+📌 Reply 0 for Men</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="33c7bc81-319a-4fff-8a20-8dc38f861a31" name="msg4_u2" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-345</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Watch the video: https://youtu.be/8c_UJwLq8PI
+
+Protect yourself 
+
+ 🧼 Wash your hands frequently
+
+👄 Avoid touching your eyes, mouth and nose
+
+💪 Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze
+
+🚷 Avoid crowded places
+
+🏠Stay at home if you feel unwell - even with a slight fever and cough
+
+🤒 If you have a fever, cough and difficulty breathing, seek medical care early - but call by phone first
+
+ℹ Stay aware of the latest information from WHO 
+
+⏩ Share this service with this link: http://bit.ly/who-covid-19-share
+
+📌 Reply 0 for Menu</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ec082d96-9e1c-4758-8243-02543fb225d1" name="msg5_u3" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-420</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Your questions answered❓
+
+Reply with the number to get the correct answer:
+
+10. What are coronaviruses, what is COVID-19 and how is it related to SARS?
+
+11. What are the symptoms of COVID-19?
+
+12. How does COVID-19 spread?
+
+13. Can I catch COVID-19 from feces, animals or pets?
+
+14. Can I catch COVID-19 from infected surfaces or packages from infected areas?
+
+15. What can I do to protect myself and prevent the spread of disease?
+
+16. What should I do if I have visited an area where COVID-19 is spreading?
+
+17. What are the treatment options for COVID-19 (including drugs, vaccines, therapies)?
+
+18. Should I wear a mask to protect myself?
+
+19. Is there anything I should not do?
+
+20. How do I cope with stress during COVID-19?
+
+21. How do I help children cope with stress during COVID-19?
+
+📌 Reply 0 for Menu</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4c529d05-d7f3-4e5a-a744-23dc077403a9" name="msg6_u4" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-345</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">HO Myth-busters
+
+There is a lot of false information around. These are the facts.
+
+🔢 People of all ages CAN be infected by the coronavirus. Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus. 
+
+❄ Cold weather and snow CANNOT kill the coronavirus.
+
+☀ The coronavirus CAN be transmitted in areas with hot and humid climates
+
+🦟 The coronavirus CANNOT be transmitted through mosquito bites.
+
+🐶 There is NO evidence that companion animals/pets such as dogs or cats can transmit the coronavirus.
+
+🛀 Taking a hot bath DOES NOT prevent the coronavirus
+
+💨 Hand dryers are NOT effective in killing the coronavirus
+
+🟣 Ultraviolet light SHOULD NOT be used for sterilization and can cause skin irritation
+
+🌡 Thermal scanners CAN detect if people have a fever but CANNOT detect whether or not someone has the coronavirus
+
+💦 Spraying alcohol or chlorine all over your body WILL NOT kill viruses that have already entered your body
+
+💉 Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenzae type b (Hib) vaccine, DO NOT provide protection against the coronavirus.
+
+👃 There is NO evidence that regularly rinsing the nose with saline has protected people from infection with the coronavirus. 
+
+🧄 Garlic is healthy but there is NO evidence from the current outbreak that eating garlic has protected people from the coronavirus.
+
+💊 Antibiotics DO NOT work against viruses, antibiotics only work against bacteria.
+
+🧪 To date, there is NO specific medicine recommended to prevent or treat the coronavirus.
+
+Check the facts on the WHO website: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters
+
+📌 Reply 0 for Men</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a6bb6395-6000-4670-b357-4cb3c73d64a1" name="msg7_u5" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-405</displayx>
+    <displayy>240</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">WHO continues to advise against the application of travel or trade restrictions to countries experiencing COVID-19 outbreaks.
+
+It is prudent for travellers who are sick to delay or avoid travel to affected areas, in particular for elderly travellers and people with chronic diseases or underlying health conditions. “Affected areas” are considered those countries, provinces, territories or cities experiencing ongoing transmission of COVID-19, in contrast to areas reporting only imported cases. 
+
+General recommendations for all travellers include:
+
+ 🧼 Wash your hands frequently
+
+👄 Avoid touching your eyes, mouth and nose
+
+💪 Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze
+
+↔ Stay more than 1 meter (3 feet) away from a person who is sick
+
+🍗 Follow proper food hygiene practices
+
+😷 Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19.
+
+Travellers returning from affected areas should:
+
+🌡 Self-monitor for symptoms for 14 days and follow national protocols of receiving countries. Some countries may require returning travellers to enter quarantine. 
+
+🤒 If symptoms occur, such as fever, or cough or difficulty breathing, travellers are advised to contact local health care providers, preferably by phone, and inform them of their symptoms and their travel history. 
+
+For the latest travel advice:
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice
+
+For the latest situation reports for affected areas:
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/ 
+
+For advice on proper food hygiene practices:
+https://www.who.int/foodsafety/publications/consumer/en/5keys_en.pdf?ua=1&amp;ua=1
+
+For advice on visiting live animal markets:
+https://www.who.int/health-topics/coronavirus/who-recommendations-to-reduce-risk-of-transmission-of-emerging-pathogens-from-animals-to-humans-in-live-animal-markets
+
+📌 Reply 1 for Latest numbers 
+📌 Reply 18 for `Should I wear a mask to protect myself?`
+📌 Reply 0 for Menu</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="aca706d5-287f-4543-b29c-fddf7e96253d" name="msg8_u6" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-345</displayx>
+    <displayy>240</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">News &amp; Press
+
+Situation reports: Situation reports provide the latest updates on the novel coronavirus outbreak.
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/
+
+Rolling Updates: Rolling updates on coronavirus disease (COVID-19) sourced from across WHO media. 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen
+
+News articles: All news releases, statements and notes for the media.
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news
+
+Press briefings: Coronavirus disease (COVID-2019) press briefings including videos, audio and transcripts. 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/press-briefings
+
+📌 Reply 0 for Menu</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="790cf66f-9b97-474e-8166-42d799a93bae" name="msg9" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-405</displayx>
+    <displayy>300</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">You are welcome.!!!Protect yourself and ur loved one !!!</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7ce419d2-ee21-4e18-8445-5922c67af910" name="msg1" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg1]" stage="Result" />
+  </stage>
+  <stage stageid="95f7f735-ff46-439d-80d5-9b613d709463" name="2" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg2]" stage="Result" />
+  </stage>
+  <stage stageid="2439a10f-dfe8-4d84-a3c3-1d78fc38d030" name="3" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg3_u1]" stage="Result" />
+  </stage>
+  <stage stageid="a22c5574-3394-4a66-b39f-8a50978fc051" name="4" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg4_u2]" stage="Result" />
+  </stage>
+  <stage stageid="5c946099-d395-42ff-8aab-ae0ef52f732b" name="5" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg5_u3]" stage="Result" />
+  </stage>
+  <stage stageid="06203bd4-3ed9-4357-9cde-bd591d19ed35" name="6" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>240</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg6_u4]" stage="Result" />
+  </stage>
+  <stage stageid="a8fe5a33-3baf-4f0d-8a72-f40061191a4d" name="7" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>285</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg7_u5]" stage="Result" />
+  </stage>
+  <stage stageid="2279bcbe-14bc-4776-859a-3d3ad02595e2" name="8" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>330</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg8_u6]" stage="Result" />
+  </stage>
+  <stage stageid="b61a8415-d07e-4e92-817e-7c883c9e073d" name="9" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>60</displayx>
+    <displayy>375</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg9]" stage="Result" />
+  </stage>
+  <stage stageid="439c32ef-facd-4d31-a197-bfc7cd2da446" name="Result" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-300</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8aa914a8-024b-4000-aa6e-bda0df587d47" name="1" type="Calculation">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>435</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>693a2ea3-28f8-4fb1-bfcc-907168b1eb62</onsuccess>
+    <calculation expression="[msg2]" stage="Result" />
+  </stage>
+  <stage stageid="693a2ea3-28f8-4fb1-bfcc-907168b1eb62" name="bot_reply" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>240</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>a581275e-960c-4cae-865c-e38c66cc5f95</onsuccess>
+    <step>
+      <element id="4d69eb87-078e-418c-9473-568fc04a4f03" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="a581275e-960c-4cae-865c-e38c66cc5f95" name="Writer" type="Write">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>345</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>295c8c68-44e8-4a1f-88e0-0c866b6425fc</onsuccess>
+    <step expr="[Result]">
+      <element id="827533f7-5cbf-4a29-98ff-44c613abbed2" />
+    </step>
+  </stage>
+  <stage stageid="cddd0ce7-a596-42a2-b0b4-53cf6515becd" name="Time Out3" type="WaitEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>405</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>87064089-a640-464b-88cf-73e6dfbbd836</onsuccess>
+    <groupid>2ba856a8-8545-49bb-97dc-fbdfde066554</groupid>
+  </stage>
+  <stage stageid="295c8c68-44e8-4a1f-88e0-0c866b6425fc" name="Wait3" type="WaitStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>405</displayx>
+    <displayy>135</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>2ba856a8-8545-49bb-97dc-fbdfde066554</groupid>
+    <choices />
+    <timeout>4</timeout>
+  </stage>
+  <stage stageid="87064089-a640-464b-88cf-73e6dfbbd836" name="Send" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>405</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c4402589-6182-4960-92fd-3c061b73c2c5</onsuccess>
+    <step>
+      <element id="6c50f216-26ef-4a67-a23e-b8225ecfcf02" />
+      <action>
+        <id>HTMLDoubleClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="543c9d8a-8a52-4a7d-b193-81668b64bcb8" name="hi_" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-615</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">hi</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="39eecf46-932d-4a5b-85e0-371130a2afea" name="more" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-615</displayx>
+    <displayy>105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">more info covid19</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9603aa21-bb22-40b2-a8e0-e3e7489b555d" name="thank" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-615</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">thankyou</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="75c00573-197b-4af6-8235-76ebf38f7d7e" name="Time Out4" type="WaitEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>555</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>52315cf5-8f9c-4813-abdd-eba5d1522990</onsuccess>
+    <groupid>b23ee7cd-9191-4c76-8da8-49170b414093</groupid>
+  </stage>
+  <stage stageid="c4402589-6182-4960-92fd-3c061b73c2c5" name="Wait4" type="WaitStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>480</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>b23ee7cd-9191-4c76-8da8-49170b414093</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="52315cf5-8f9c-4813-abdd-eba5d1522990" name="User_read" type="Navigate">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>600</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>b12874d9-57ae-4c62-82ce-270e3bb63121</onsuccess>
+    <step>
+      <element id="adec587e-dad5-466f-b0b1-582a37ccd04d" />
+      <action>
+        <id>HTMLFocus</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="dd220db9-370f-4621-9ef3-0a6f642c7ee2" name="Reader" type="Read">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>750</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c652600f-7ef0-4204-82a2-be13b10db38f</onsuccess>
+    <step stage="Value from p1_read">
+      <element id="adec587e-dad5-466f-b0b1-582a37ccd04d" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="b538f268-96c6-4e4d-a12a-1819c53f1057" name="Time Out2" type="WaitEnd">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>750</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>dd220db9-370f-4621-9ef3-0a6f642c7ee2</onsuccess>
+    <groupid>49196238-5f87-4bfe-8ca2-4ad8ccecbcbb</groupid>
+  </stage>
+  <stage stageid="b12874d9-57ae-4c62-82ce-270e3bb63121" name="Wait2" type="WaitStart">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>660</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>49196238-5f87-4bfe-8ca2-4ad8ccecbcbb</groupid>
+    <choices />
+    <timeout>7</timeout>
+  </stage>
+  <stage stageid="c652600f-7ef0-4204-82a2-be13b10db38f" name="Decision2" type="Decision">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>645</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <decision expression="[Value from p1_read]=[Data7]" />
+    <ontrue>73cad1d6-52d8-4fbe-8207-b82c95f8ab62</ontrue>
+    <onfalse>3ac57edb-f1cc-4e6e-985e-79043f5c8545</onfalse>
+  </stage>
+  <stage stageid="ed1064c4-5d04-458c-a32e-ee93adddde54" name="Data1" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-915</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">a</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2b48157b-450f-42b8-95d0-9e08616acc62" name="Data2" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-900</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">b</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c989f7fa-9d06-4ea0-a70b-3411127930ef" name="Data3" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-900</displayx>
+    <displayy>180</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">c</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="08bf3e55-ff93-4889-a973-97010d0242c9" name="Data4" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-885</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">d</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9005198d-1277-452d-ad40-d3d1438502d8" name="Data5" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-840</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7a6f45b0-628c-45af-a23e-0ede2d8ad614" name="Data6" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-765</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">f</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d4213ca0-7ecf-426f-a1c6-d9285c0181b0" name="Data7" type="Data">
+    <subsheetid>af6d71b8-b3fd-4f8b-9c43-4afd67e3c9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-750</displayx>
+    <displayy>105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">z</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+</process>

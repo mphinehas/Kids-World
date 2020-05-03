@@ -1,0 +1,347 @@
+﻿<process name="File" version="1.0" bpversion="5.0.11.0" narrative="moving a file from source to destination" type="object" runmode="Exclusive" preferredid="4317af5c-c7a3-49ff-a874-2a436d2a3f3f">
+  <appdef>
+    <element name="File">
+      <id>f9542f99-30ee-4022-be22-66ec03b608ae</id>
+      <group name="launch">
+        <id>ae288c6d-b3ad-49ef-a596-1eff79187beb</id>
+      </group>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>Win32Attach</id>
+      <parameters>
+        <parameter>
+          <name>WindowTitle</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>ProcessName</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>Path</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>NonInvasive</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="4cdb209f-f69c-46bd-9798-bfbcfdad7254" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>29</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="6befa7a2-f746-435f-919c-ba97fa36f557" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c2278ee0-3e25-4fbd-8783-54935f539e83</onsuccess>
+  </stage>
+  <stage stageid="c2278ee0-3e25-4fbd-8783-54935f539e83" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="be7dc558-39e9-4400-839b-3c954b501bff" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="3fd71540-f5e6-4c32-906e-54067b32fe5a" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>4cdb209f-f69c-46bd-9798-bfbcfdad7254</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="85706c6a-da64-4c8b-bbf2-b2f08da1dec5" name="Start" type="Start">
+    <subsheetid>4cdb209f-f69c-46bd-9798-bfbcfdad7254</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c3539529-eab3-470c-a87b-0953b9e17c7a</onsuccess>
+  </stage>
+  <stage stageid="c3539529-eab3-470c-a87b-0953b9e17c7a" name="End" type="End">
+    <subsheetid>4cdb209f-f69c-46bd-9798-bfbcfdad7254</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="219156d2-203d-4221-9408-de41dcb470f7" name="Action 1" type="SubSheetInfo">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-420</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="8471bbc3-ce4e-4890-91a8-69c0a8aa5100" name="Start" type="Start">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>6fe5b5c2-cd55-4a01-af6d-2743c8a0e8c3</onsuccess>
+  </stage>
+  <stage stageid="8a3eabf5-938e-48d9-8875-fb9f9577bce1" name="End" type="End">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="0171ed93-26bf-441b-873e-537cfeca5011" name="Note1" type="Note">
+    <subsheetid>4cdb209f-f69c-46bd-9798-bfbcfdad7254</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c5158b2f-fd8f-4e0e-9688-04cdf0b7fd6b" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="6fe5b5c2-cd55-4a01-af6d-2743c8a0e8c3" name="launch" type="Action">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Application" narrative="The application or short cut to start" expr="&quot;cmd.exe&quot;" />
+      <input type="text" name="Arguments" narrative="Any arguments needed for the app" expr="" />
+    </inputs>
+    <onsuccess>467962c4-65ae-4efe-b30a-16fc1d5117c9</onsuccess>
+    <resource object="Utility - Environment" action="Start Process" />
+  </stage>
+  <stage stageid="467962c4-65ae-4efe-b30a-16fc1d5117c9" name="attach" type="Navigate">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>9b054945-031f-46e3-b2c4-f24cdb6eccc8</onsuccess>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>AttachApplication</id>
+        <arguments>
+          <argument>
+            <id>WindowTitlesCollection</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WindowTitle</id>
+            <value>"*cmd.exe"</value>
+          </argument>
+          <argument>
+            <id>ProcessName</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ChildIndex</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="9b054945-031f-46e3-b2c4-f24cdb6eccc8" name="enter dt" type="Navigate">
+    <subsheetid>9e5ff91d-c4fb-4ce6-9f4f-cae123b6360f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>8a3eabf5-938e-48d9-8875-fb9f9577bce1</onsuccess>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"cd/"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{Enter}"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"dir"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{Enter}"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"copy"&amp;"&lt;{SHIFT} &gt;{SHIFT}"&amp;"&lt;{SHIFT}""source""&gt;{SHIFT}"&amp;"&lt;{SHIFT} &gt;{SHIFT}" &amp;"&lt;{SHIFT}g:&gt;{SHIFT}"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="f9542f99-30ee-4022-be22-66ec03b608ae" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{Enter}"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+</process>
